@@ -24,10 +24,10 @@
 		const test6 = document.querySelectorAll('.result [class$="-value"]')
 
 		//получить все классы которые начинается на result-t
-		const test7 = document.querySelectorAll( "[class^='result-t']" )
+		const test7 = document.querySelectorAll('[class^="result-t"]')
 
 		//получить все элементы по второму классу
-		const test8 = document.querySelectorAll( "[class^='result-total budget_m']" )
+		const test8 = document.querySelectorAll('[class^="result-total budget_m"]')
 
 		//Получить все элементы заканчивающиеся названия класса кроме определенного Элемента
 		const test9 = document.querySelectorAll('.result [class$="-value"]:not(.budget_month-value)')
@@ -36,4 +36,4 @@
 		const test10 = document.querySelectorAll('.result [class$="-value"]:not(.budget_month-value):not(.budget_day-value)')
 
 		//Получить все элементы кроме определенных элементов начиная с определенных классов
-		const test11 = document.querySelectorAll( "[class^='result-total budget_']:not(.budget_day-value)" )
+		const test11 = document.querySelectorAll('[class^="result-total budget_"]:not(.budget_day-value)')
